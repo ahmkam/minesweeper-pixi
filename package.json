@@ -1,0 +1,20 @@
+{
+  "name": "minesweeper-pixi",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server --content-base build/"
+  },
+  "dependencies": {
+    "pixi.js": "^4.8.1",
+    "fsevents": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-command": "^0.2.1"
+  }
+}

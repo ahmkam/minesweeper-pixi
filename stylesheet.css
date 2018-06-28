@@ -1,0 +1,19 @@
+label{
+    font-size: 14pt;
+}
+
+input, select, button{
+    font-size: 12pt;
+}
+
+button, label{
+    font-weight: bold;
+}
+
+#h3_bonus,#h3_minedetector{
+    color: red;
+}
+
+#h3_bonus{
+    text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+<meta name="viewport"
+content="initial-scale=0.425,
+maximum-scale=0.75, user-scalable=no,
+minimum-scale=0.25">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<html>
+    <head>
+        <title>Minesweeper</title>
+    </head>
+    <body>
+        <div style="position: fixed; padding-left: 5px;">
+            <form id="option_form">
+                <h3>Level Options</h3>
+                <div>
+                    </label>
+                    <input id="input_editMines" type="checkbox">
+                    <label>Edit Mines Mode
+                </div>
+                </br>
+                <div>
+                    <label>Rows </label>
+                    <input id="input_rows" type="number" min="3" value="9" style="width:45px">
+
+                    <label>Cols </label>
+                    <input id="input_cols" type="number" min="3" value="9" style="width:45px">
+                </div>
+                </br>
+                <div>
+                    <label>Mine </label>
+                    <input id="input_mines" type="number" min="1" value="10" style="width:45px">
+
+                    <label>Flags </label>
+                    <input id="input_flags" type="number" min="1" value="10" style="width:45px">
+                </div>
+                </br>
+                <div>
+                    <button id="btn_update" type="button">Update Grid</button>
+                </div>
+                </br>
+
+                <h3>Save/Load Level</h3>
+                <div>
+                    <button id="btn_save" type="button">Save</button>
+                    <input id="level_name" type="text" maxlength="12" style="width:100px">
+                </div>
+                </br>
+                <div>
+                    <button id="btn_loadlevel" type="button">Load</button>
+                    <select id="level_list" style="width:100px">
+                    </select>
+                </div>
+                </br>
+
+                <h3 id="h3_bonus">Bonus</h3>
+                <h3 id="h3_minedetector">Mine Detector!!</h3>
+                <div>
+                    <label>Radius </label>
+                    <input id="input_mineRadius" type="number" min="1" value="2" style="width:40px">
+                </div>
+                </br>
+            </form>
+        </div>
+        <script src="libs/TweenMax.min.js"></script>
+        <script src="dist/bundle.js"></script>
+    </body>
+    
+</html>
