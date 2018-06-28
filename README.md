@@ -1,10 +1,8 @@
-#Minesweeper
+# Minesweeper
 
-Minesweeper made in Javascript and Pixi.js.
+Minesweeper made in Javascript and Pixi.js. Using TweenMax as the tweening library.
 
-Using TweenMax as the tweening library.
-
-play the game here:
+play the game here: http://minesweeper-pixi.herokuapp.com/index.html
 
 
 Features
